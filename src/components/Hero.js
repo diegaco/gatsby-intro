@@ -53,7 +53,7 @@ const Hero = () => {
   return (
     <ImageBackground Tag="section" fluid={image.sharp.fluid} fadeIn="soft">
       <TextBox>
-        <h1>Frontend Masters + Gastby &hearts;</h1>
+        <h1>Frontend Masters + Gastby &hearts; (Diego Acosta)</h1>
         <p>
           Hello Uruguay <Link to="/about">Learn about &rarr;</Link>
         </p>
