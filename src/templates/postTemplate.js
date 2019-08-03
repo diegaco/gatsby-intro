@@ -19,7 +19,7 @@ export const query = graphql`
   }
 `;
 
-const PostTemplate = ({ data: { mdx: post } }) => (
+const postTemplate = ({ data: { mdx: post } }) => (
   <Layout>
     <h1>{post.frontmatter.title}</h1>
     <p
@@ -35,4 +35,4 @@ const PostTemplate = ({ data: { mdx: post } }) => (
   </Layout>
 );
 
-export default PostTemplate;
+export default postTemplate;
