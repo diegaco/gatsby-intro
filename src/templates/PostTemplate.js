@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import ReadLink from '../components/ReadLink';
 
 export const query = graphql`
-  query($slug: String!) {
+  query Post($slug: String!) {
     mdx(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         title
