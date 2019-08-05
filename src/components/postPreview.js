@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from '@emotion/core';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
-import ReadLink from './ReadLink';
+import ReadLink from './readLink';
 
 const PostPreview = ({ post }) => (
   <article
