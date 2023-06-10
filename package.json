@@ -19,7 +19,7 @@
     "@mdx-js/mdx": "^1.1.5",
     "@mdx-js/react": "^1.1.5",
     "change-case": "^3.1.0",
-    "gatsby": "^2.13.50",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.7.6",
     "gatsby-image": "^2.2.8",
     "gatsby-mdx": "^0.6.3",
